@@ -5,7 +5,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel, conlist
 
 
-# This comment will trigger GH workflow
+# This comment will trigger GH workflow -----> check actions tab in repo now
 app = FastAPI(title="Predicting Wine Class with batching")
 
 # Open classifier in global scope
